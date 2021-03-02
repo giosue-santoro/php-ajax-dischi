@@ -7,7 +7,7 @@ require_once __DIR__ . '/database/database.php';
 <head>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="js/script.js" defer></script>
   <title>php-ajax-dischi</title>
