@@ -11,10 +11,8 @@ var app = new Vue({
       let self = this;
   
       axios.get("http://localhost/php-ajax-dischi/app/server.php")
-      .then((re) => {
-        self.dischi = re.data;
-      });
-
+      .then((re) => { self.dischi = re.data; });
+    
     },
 
     methods:{
